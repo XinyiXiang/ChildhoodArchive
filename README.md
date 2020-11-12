@@ -3,7 +3,7 @@
 ## Reproduce using GitHub Desktop
 - Click on the green ```Code``` button
 - Select open with GitHub desktop
-- 
+- See below
 ## OR reproduce with zip file
 - Click on the green ```Code``` button
 - Select download zip files from the dropdown menu
