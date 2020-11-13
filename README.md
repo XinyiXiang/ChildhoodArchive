@@ -19,4 +19,4 @@ python3 run_classifier.py --task_name=cola --do_train=true --do_eval=true --do_p
 ```
 
 
-- Install any missing module as reminded
+- Install any missing module
