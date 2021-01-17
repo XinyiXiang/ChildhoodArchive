@@ -1,0 +1,3 @@
+
+Check if <TAT12p122.docx> exists, is readable and has non-zero size!
+
