@@ -36,14 +36,20 @@ chmod a+x docx2txt
 
 
 -Convert .docx files into .txt
-```docx2txt TAT11P46.docx```
+```
+docx2txt TAT11P46.docx
+```
 Replace the file names as needed, a .txt file with the same file name should apppear in the directory
 
 -Extract interview question texts
-```grep "Q" < TAT11P46.txt > Q_TAT11P46.txt```
+```
+grep "Q" < TAT11P46.txt > Q_TAT11P46.txt
+```
 
 Replace the file names as needed
 -Extract interview answer texts
-```grep "A" < TAT11P46.txt > A_TAT11P46.txt```
+```
+grep "A" < TAT11P46.txt > A_TAT11P46.txt
+```
 
 Replace the file names as needed
