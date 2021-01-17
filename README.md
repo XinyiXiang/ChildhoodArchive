@@ -22,3 +22,28 @@ python3 run_classifier.py --task_name=cola --do_train=true --do_eval=true --do_p
 Please use absolute path as above indicated
 
 - Install any missing module
+
+## Convert docx file to txt
+-Start with moving docx2txt.sh to the same directory as all ```.docx``` files
+-Then type in CLI```make docx2txt```
+
+
+You should see the following lines : 
+
+cat docx2txt.sh >docx2txt 
+
+chmod a+x docx2txt
+
+
+-Convert .docx files into .txt
+```docx2txt TAT11P46.docx```
+Replace the file names as needed, a .txt file with the same file name should apppear in the directory
+
+-Extract interview question texts
+```grep "Q" < TAT11P46.txt > Q_TAT11P46.txt```
+
+Replace the file names as needed
+-Extract interview answer texts
+```grep "A" < TAT11P46.txt > A_TAT11P46.txt```
+
+Replace the file names as needed
