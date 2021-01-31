@@ -24,8 +24,8 @@ Please use absolute path as above indicated
 - Install any missing module
 
 ## Convert docx file to txt
--Start with moving docx2txt.sh to the same directory as all ```.docx``` files
--Then type in CLI```make docx2txt```
+-Download and move the docx2txt.sh shell script to the same directory as all ```.docx``` files
+-Then type in command line/terminal```make docx2txt```
 
 
 You should see the following lines : 
