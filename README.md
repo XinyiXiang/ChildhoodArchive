@@ -53,3 +53,16 @@ grep "A" < TAT11P46.txt > A_TAT11P46.txt
 ```
 
 Replace the file names as needed
+
+## Sorting through TAT interview sections
+
+```
+vim TAT11P46.txt
+```
+
+- Then in normal mode (i.e. not inserting), type `:set numbers` for line numbers to appear. 
+- You can always search for a section, for example, section (2) with `/(2)`.
+- Finally, extract target lines and direct output into the same file with two wakkas ('>').
+```
+head -n "$last" TAT11P46.txt | tail -n +"$first" TAT11P46.txt >> section_two.txt
+```
